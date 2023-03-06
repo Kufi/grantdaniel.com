@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resume - Daniel Grant</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js" async defer></script>
+    </head>
+    <body>
+        <main>
+            <div id="static">
+                <div id="profile">
+                    <figure>
+                        <img src="profile.jpeg"></img>
+                    </figure>
+                    <div id="profile-desc">
+                        <h1>Daniel Grant</h1>
+                        <h3>Computer Science and Music Double Major at SCU</h3>
+                    </div>
+                </div>
+                <div id="description">
+                    <h2>About me</h2>
+                    <p>I am extremely passionate about the arts and technology, and I am constantly looking for new opportunities
+                        to combine and take advantage of my interdisciplinary skills.</p>
+                </div>
+                <div id="buttons">
+                    <button onclick="showProjects()">Projects</button>
+                    <button onclick="showWork()">Work Experience</button>
+                    <button onclick="showSkills()">Skills & Tools</button>
+                    <button onclick="showContact()">Contact Info</button>
+                    <a id="download" download href="./resume.pdf">Download CV</a>
+                </div>
+            </div>
+            <div id="dynamic">
+                
+                
+                <div id="projects-page" class="right">
+                    <h1>Projects</h1>
+                    <div id="projects" class="dynamic-content">
+                        
+                        <div id="project-text">
+                            <div class="project-desc">
+                                
+                                <h2><a href="https://oscscope.com">OSC-SCOPE</a> <span>(Personal Project)</span></h2>
+                                <h3>Harmony Visualization Web App</h3>
+                                <p>I did everything in this project, uses Javascript's Web Audio API, not supported on mobile</p>
+
+                            </div>
+                            
+                            <div class="project-desc">
+                                <h2><a href="https://devpost.com/software/transit-app-vjytbs">Routeabaga</a><span> (INRIX Hack 2022)</span></h2>
+                                <h3>Traffic and Travel Planning App</h3>
+                                <p>One of the lead software devs, focusing on implementing API integration</p>
+                            </div>
+                            <div class="project-desc">
+                                <h2><a href="https://www.swingbeats.net/">Swingbeats</a> <span>(Cave Lab)</span></h2>
+                               
+                                <h3>Haptic Feedback Dance Bracelet</h3>
+                                <p>Mobile Dev, Signal Processing, and Hardware contributions to research project<p>
+                            </div>
+                        </div>
+                        <div id="project-pic">
+                            <figure>
+                                <img src="osc-pic.png" alt="">
+                            </figure>
+                            <figure>
+                                <img src="route-pic.png" alt="">
+                            </figure>
+                            <figure>
+                                <img src="sb-pic.png" alt="">
+                            </figure>
+                        </div>
+                      
+                    </div>
+                    
+                </div>
+                <div id="work-page" class="right">
+                    <h1>Experience</h1>
+                    <div id="experience" class="dynamic-content">
+                        
+                        <h2>Events Production Director <span>(Sept 2022 - Present)</span></h2>
+                        <h3>KSCU - Santa Clara University</h3>
+                        <ul>
+                            <li> Organize and run concerts featuring SCU student performers with hundreds of attendees</li>
+                            <li> Utilization of mixing, audio engineering techniques, and technical equipment to avoid audio
+                                issues and create a quality sound experience for performers and audience alike</li>
+                        </ul>
+                        <h2>Media Services Employee <span>(June 2022 - Present)</span></h2>
+                        <h3>Santa Clara University</h3>
+                        <ul>
+                            <li> Responsible for understanding all technological services actively used across the SCU campus
+                                to help with all problems patrons might have in a respectful and productive manner</li>
+                        </ul>
+                        <h2>Research Assistant  <span>(Apr 2021 - Present)</span></h2>
+                        <h3>Cave Lab - Santa Clara University</h3>
+                        <ul>
+                            <li> Working on software and hardware components for Swingbeats project as well as hardware for an agritech project</li>
+                            <li> Coordinating and communicating with business, iOS, and hardware branches to allow for smooth
+                                workflow between teams</li>
+                        </ul>
+                        <h2>Talent Employee<span> (Feb 2022 - Sept 2022)</span></h2>
+                        <h3>Non-Disclosable Music Media Work</h3>
+                        <ul>
+                            <li> Contact angelica@massappeal.com for work information</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="skills-page" class="right">
+                    <h1>Skills</h1>
+                    <div id="skills" class="dynamic-content">
+                        
+                        <div class="col">
+                            <h4>Programming</h4>
+                            <h4>Web Development</h4>
+                            <h4>Mobile Development</h4>
+                            <h4>Game Development</h4>
+                            <h4>Googling</h4>
+                        </div>
+
+                        <div class="col">
+                            <h4>Music Production/Audio Engineering</h4>
+                            <h4>Adobe Creative Cloud</h4>
+                            <h4>Data Structures</h4>
+                            <h4>Algorithms</h4>
+                            <h4>Graphics</h4>
+                        </div>
+                        
+
+
+                    </div>
+                    <h1>Tools</h1>
+
+                    <div id="tools" class="dynamic-content">
+                        <figure>
+                            <img src="node-pic.png" alt="">
+                        </figure>
+                        <figure>
+                            <img src="react-pic.png" alt="">
+                        </figure>
+                        <figure>
+                            <img src="figma-pic.png" alt="">
+                        </figure>
+                        <figure>
+                            <img src="git-pic.png" alt="">
+                        </figure>
+                        <figure>
+                            <img src="live-pic.png" alt="">
+                        </figure>
+                        <figure>
+                            <img src="ps-pic.png" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div id="contact-page" class="right">
+                    <h1>Contacts/Links</h1>
+                    <div id="contact" class="dynamic-content">
+                        <div id="logos">
+                            <figure>
+                                <img src="phone-pic.png" alt="">
+                            </figure>
+                            <figure>
+                                <img src="gmail-pic.png" alt="">
+                            </figure>
+                            <figure>
+                                <img src="linkedin-pic.png" alt="">
+                            </figure>
+                            <figure>
+                                <img src="linktree-pic.png" alt="">
+                            </figure>
+                            <figure>
+                                <img src="git-pic.png" alt="">
+                            </figure>
+                        </div>
+                        <div id="links">
+                            <h2>(408) 656 3387</h2>
+                            <h2>dkgrant@scu.edu</h2>
+                            <h2><a href="https://www.linkedin.com/in/danielgrant23/">linkedin.com/danielgrant23/</a></h2>
+                            <h2><a href="https://linktr.ee/danielkufis">linktr.ee/danielkufis</a> (Music)</h2>
+                            <h2><a href="https://github.com/Kufi">github.com/Kufi</a></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
