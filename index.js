@@ -10,13 +10,14 @@ window.mobileCheck = function() {
 };
 
 const body = document.querySelector('body');
-
+const button = document.querySelector('button');
 body.style.height = window.innerHeight + "px"; 
 console.log(window.innerHeight);
 console.log(body.style.height);
 
 hide()
-showSkills()
+showProjects()
+button.focus();
 
 function hide() {
     skills.style.display = 'none';

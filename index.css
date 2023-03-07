@@ -1,12 +1,10 @@
-/* @media (min-width:400px)  {
+@media only screen and (max-width:1080px)  {
     html{
-        font-size: 24px;
+        font-size: 35px;
     }
     html body{    
         height: auto;
     }
-
-
 
     body h3{
         font-size:inherit;
@@ -20,8 +18,16 @@
     body #static{
         width: 85%;
         height: 30%;
-        margin-bottom: 9rem;
+        margin-bottom: 12.5rem;
         
+    }
+    
+    body #profile h3{
+        margin: 0;
+    }
+
+    body #profile{
+        padding-bottom: 0;
     }
 
     body #static>div{
@@ -37,9 +43,23 @@
         margin-left: 0;
         width: 95%;
         flex-grow: 1;
+        justify-content: flex-start;
+        padding-bottom: 2rem;
     }
 
-} */
+    body span{
+        font-size: inherit;
+    }
+
+    body #tools img{
+        width: 3rem;
+    }
+
+    body #tools figure{
+        width: 4rem;
+    }
+
+}
 
 body {
     background-color: rgb(240, 250, 255);
@@ -103,7 +123,6 @@ main{
     display: flex;
     flex-flow: column;
     justify-content: space-around;
-    align-content: center;
 }
 
 #description {
